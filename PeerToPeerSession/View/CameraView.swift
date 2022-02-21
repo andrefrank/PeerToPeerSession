@@ -22,7 +22,6 @@ struct CameraView:View {
                     cameraModel.updateCameraOrientation()
                 }
             VStack {
-                
                 HStack {
                     Spacer()
                 if cameraModel.previewVideoImage != nil {
@@ -31,28 +30,12 @@ struct CameraView:View {
                     .frame(width: cameraModel.previewImageSize.width, height: cameraModel.previewImageSize.height)
                     .border(Color.red, width: 2)
                 }
+                    
                 Spacer()
                     
                 if cameraModel.isTaken {
-                    
-                   // HStack {
-                       // Spacer()
-                        
-                        Button {
-                            cameraModel.isTaken.toggle()
-                        } label: {
-                                Image(systemName: "arrow.triangle.2.circlepath.camera")
-                                .padding()
-                                .foregroundColor(Color.black)
-                                .background(Color.white)
-                                .clipShape(Circle())
-                            }
-                           // .padding()
-                    //}
-                    
+                    SaveButton(cameraModel: cameraModel)
                 }
-                    
-                
              }
                 
                 Spacer()
@@ -74,18 +57,7 @@ struct CameraView:View {
                        Spacer()
                        
                     } else {
-                        Button {
-                            cameraModel.isTaken.toggle()
-                        } label: {
-                            ZStack {
-                                Circle()
-                                    .fill(Color.white)
-                                    .frame(width: 65,height: 65)
-                                Circle()
-                                    .stroke(Color.white, lineWidth: 2)
-                                    .frame(width: 75)
-                            }
-                        }
+                        RecordButton(cameraModel: cameraModel)
                     }//Else
                 }
               .frame(height: 75)
@@ -99,7 +71,41 @@ struct CameraView:View {
     }
 }
 
+struct SaveButton:View {
+    @ObservedObject var cameraModel:CameraModel
+    
+    var body: some View {
+        Button {
+            cameraModel.isTaken.toggle()
+        } label: {
+                Image(systemName: "arrow.triangle.2.circlepath.camera")
+                .padding()
+                .foregroundColor(Color.black)
+                .background(Color.white)
+                .clipShape(Circle())
+            }
+    }
+}
 
+struct RecordButton:View {
+    @ObservedObject var cameraModel:CameraModel
+    
+    var body: some View {
+        Button {
+            cameraModel.isTaken.toggle()
+        } label: {
+            ZStack {
+                Circle()
+                    .fill(Color.white)
+                    .frame(width: 65,height: 65)
+                Circle()
+                    .stroke(Color.white, lineWidth: 2)
+                    .frame(width: 75)
+            }
+        }
+    }
+    
+}
 
 //MARK: - Main View
 struct MainView : View {
