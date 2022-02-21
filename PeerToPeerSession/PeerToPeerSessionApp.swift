@@ -11,7 +11,9 @@ import SwiftUI
 struct PeerToPeerSessionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         //   ContentView()
+            //    .environmentObject(ContentViewModel())
+            MainView()
         }
     }
 }

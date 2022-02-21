@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67B03E5327C2E01400C24211 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B03E5227C2E01400C24211 /* CameraView.swift */; };
+		67B1EBFD27C2570000C017CD /* MCSessionBrowserRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1EBFC27C2570000C017CD /* MCSessionBrowserRepresentable.swift */; };
+		67E8D35D27C428EB00E095A0 /* DeviceRotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8D35C27C428EB00E095A0 /* DeviceRotationModifier.swift */; };
+		67E8D36027C43BD500E095A0 /* AVCaptureOrientation + UIDeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8D35F27C43BD500E095A0 /* AVCaptureOrientation + UIDeviceOrientation.swift */; };
+		67E8D36227C43C1C00E095A0 /* UIImage + Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8D36127C43C1C00E095A0 /* UIImage + Rotate.swift */; };
+		67E8D36427C43C6900E095A0 /* CMSampleBuffer + UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8D36327C43C6900E095A0 /* CMSampleBuffer + UIImage.swift */; };
+		67E8D36927C43D9B00E095A0 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8D36827C43D9B00E095A0 /* CameraModel.swift */; };
+		67E8D36B27C43E2400E095A0 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8D36A27C43E2400E095A0 /* CameraPreviewView.swift */; };
 		67EEF30D27C183BD00A18AAE /* PeerToPeerSessionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEF30C27C183BD00A18AAE /* PeerToPeerSessionApp.swift */; };
 		67EEF30F27C183BD00A18AAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEF30E27C183BD00A18AAE /* ContentView.swift */; };
 		67EEF31127C183BE00A18AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEF31027C183BE00A18AAE /* Assets.xcassets */; };
 		67EEF31427C183BE00A18AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEF31327C183BE00A18AAE /* Preview Assets.xcassets */; };
+		67EEF31B27C1898900A18AAE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEF31A27C1898900A18AAE /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67B03E5227C2E01400C24211 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		67B1EBFB27C2390900C017CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67B1EBFC27C2570000C017CD /* MCSessionBrowserRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSessionBrowserRepresentable.swift; sourceTree = "<group>"; };
+		67E8D35C27C428EB00E095A0 /* DeviceRotationModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRotationModifier.swift; sourceTree = "<group>"; };
+		67E8D35F27C43BD500E095A0 /* AVCaptureOrientation + UIDeviceOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureOrientation + UIDeviceOrientation.swift"; sourceTree = "<group>"; };
+		67E8D36127C43C1C00E095A0 /* UIImage + Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Rotate.swift"; sourceTree = "<group>"; };
+		67E8D36327C43C6900E095A0 /* CMSampleBuffer + UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer + UIImage.swift"; sourceTree = "<group>"; };
+		67E8D36827C43D9B00E095A0 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		67E8D36A27C43E2400E095A0 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		67EEF30927C183BD00A18AAE /* PeerToPeerSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerToPeerSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EEF30C27C183BD00A18AAE /* PeerToPeerSessionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerToPeerSessionApp.swift; sourceTree = "<group>"; };
 		67EEF30E27C183BD00A18AAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67EEF31027C183BE00A18AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67EEF31327C183BE00A18AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67EEF31A27C1898900A18AAE /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67E8D35E27C43B9800E095A0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67E8D35F27C43BD500E095A0 /* AVCaptureOrientation + UIDeviceOrientation.swift */,
+				67E8D36127C43C1C00E095A0 /* UIImage + Rotate.swift */,
+				67E8D36327C43C6900E095A0 /* CMSampleBuffer + UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		67E8D36527C43D3000E095A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67EEF31A27C1898900A18AAE /* ContentViewModel.swift */,
+				67E8D36827C43D9B00E095A0 /* CameraModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67E8D36627C43D3F00E095A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67E8D36727C43D7000E095A0 /* ViewModifier */,
+				67B03E5227C2E01400C24211 /* CameraView.swift */,
+				67EEF30E27C183BD00A18AAE /* ContentView.swift */,
+				67B1EBFC27C2570000C017CD /* MCSessionBrowserRepresentable.swift */,
+				67E8D36A27C43E2400E095A0 /* CameraPreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67E8D36727C43D7000E095A0 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				67E8D35C27C428EB00E095A0 /* DeviceRotationModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
 		67EEF30027C183BD00A18AAE = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +109,11 @@
 		67EEF30B27C183BD00A18AAE /* PeerToPeerSession */ = {
 			isa = PBXGroup;
 			children = (
+				67E8D35E27C43B9800E095A0 /* Extension */,
+				67E8D36527C43D3000E095A0 /* Model */,
+				67E8D36627C43D3F00E095A0 /* View */,
+				67B1EBFB27C2390900C017CD /* Info.plist */,
 				67EEF30C27C183BD00A18AAE /* PeerToPeerSessionApp.swift */,
-				67EEF30E27C183BD00A18AAE /* ContentView.swift */,
 				67EEF31027C183BE00A18AAE /* Assets.xcassets */,
 				67EEF31227C183BE00A18AAE /* Preview Content */,
 			);
@@ -139,6 +200,15 @@
 			files = (
 				67EEF30F27C183BD00A18AAE /* ContentView.swift in Sources */,
 				67EEF30D27C183BD00A18AAE /* PeerToPeerSessionApp.swift in Sources */,
+				67E8D36927C43D9B00E095A0 /* CameraModel.swift in Sources */,
+				67E8D36027C43BD500E095A0 /* AVCaptureOrientation + UIDeviceOrientation.swift in Sources */,
+				67E8D36B27C43E2400E095A0 /* CameraPreviewView.swift in Sources */,
+				67B1EBFD27C2570000C017CD /* MCSessionBrowserRepresentable.swift in Sources */,
+				67E8D36227C43C1C00E095A0 /* UIImage + Rotate.swift in Sources */,
+				67B03E5327C2E01400C24211 /* CameraView.swift in Sources */,
+				67E8D35D27C428EB00E095A0 /* DeviceRotationModifier.swift in Sources */,
+				67EEF31B27C1898900A18AAE /* ContentViewModel.swift in Sources */,
+				67E8D36427C43C6900E095A0 /* CMSampleBuffer + UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +342,9 @@
 				DEVELOPMENT_TEAM = Q429UJSL7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerToPeerSession/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to share video sessions";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "af-peer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +374,9 @@
 				DEVELOPMENT_TEAM = Q429UJSL7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerToPeerSession/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to share video sessions";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "af-peer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
